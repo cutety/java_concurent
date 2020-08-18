@@ -15,9 +15,8 @@ public class DaemoDemo {
                 }
             }
         });
-        //t1.setDaemon(true); //设置守护线程之后可以关闭java进程
+        t1.setDaemon(true); //设置守护线程之后可以关闭java进程
         t1.start();
         t1.interrupt();
-
     }
 }

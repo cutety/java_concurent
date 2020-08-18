@@ -3,11 +3,13 @@ package com.github.cutety.philosopher;
 import com.github.cutety.utils.LogUtil;
 import com.github.cutety.utils.Sleeper;
 
-public class Philosopher implements Runnable {
-    private final Object left;
-    private final Object right;
+import java.util.concurrent.locks.ReentrantLock;
 
-    public Philosopher(Object left, Object right) {
+public class Philosopher implements Runnable {
+    private final ReentrantLock left;
+    private final ReentrantLock right;
+
+    public Philosopher(ReentrantLock left, ReentrantLock right) {
         this.left = left;
         this.right = right;
     }
@@ -15,10 +17,18 @@ public class Philosopher implements Runnable {
     @Override
     public void run() {
         while(true) {
-            synchronized (left) {
-                synchronized (right) {
-                    eat();
-                    Sleeper.sleep(1);
+            if(left.tryLock()) {
+                try {
+                    if(right.tryLock()) {
+                        try {
+                            eat();
+                        }
+                        finally {
+                            right.unlock();
+                        }
+                    }
+                } finally {
+                    left.unlock();
                 }
             }
         }

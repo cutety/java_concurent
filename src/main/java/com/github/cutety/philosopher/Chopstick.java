@@ -1,6 +1,8 @@
 package com.github.cutety.philosopher;
 
-public class Chopstick {
+import java.util.concurrent.locks.ReentrantLock;
+
+public class Chopstick extends ReentrantLock {
     private final String name;
 
     public Chopstick(String name) {
