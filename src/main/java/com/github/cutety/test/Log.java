@@ -1,217 +1,133 @@
-/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/bin/java -XX:TieredStopAtLevel=1 -noverify -Dspring.output.ansi.enabled=always -Dcom.sun.management.jmxremote -Dspring.jmx.enabled=true -Dspring.liveBeansView.mbeanDomain -Dspring.application.admin.enabled=true -javaagent:/Users/alex/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/201.6668.121/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=49301:/Users/alex/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/201.6668.121/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/lib/tools.jar:/Users/alex/workspace/旅游大数据分析与挖掘系统-软件-代码-说明/源码/TourismAnalysisSystem/TourismDataVisualization/target/classes:/Users/alex/.m2/repository/org/springframework/boot/spring-boot-starter-thymeleaf/2.1.11.RELEASE/spring-boot-starter-thymeleaf-2.1.11.RELEASE.jar:/Users/alex/.m2/repository/org/springframework/boot/spring-boot-starter/2.1.11.RELEASE/spring-boot-starter-2.1.11.RELEASE.jar:/Users/alex/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.1.11.RELEASE/spring-boot-starter-logging-2.1.11.RELEASE.jar:/Users/alex/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/alex/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/alex/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.11.2/log4j-to-slf4j-2.11.2.jar:/Users/alex/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/Users/alex/.m2/repository/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29.jar:/Users/alex/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/alex/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar:/Users/alex/.m2/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar:/Users/alex/.m2/repository/org/thymeleaf/thymeleaf/3.0.11.RELEASE/thymeleaf-3.0.11.RELEASE.jar:/Users/alex/.m2/repository/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE.jar:/Users/alex/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/Users/alex/.m2/repository/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.4.RELEASE/thymeleaf-extras-java8time-3.0.4.RELEASE.jar:/Users/alex/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.1.11.RELEASE/spring-boot-starter-web-2.1.11.RELEASE.jar:/Users/alex/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.1.11.RELEASE/spring-boot-starter-json-2.1.11.RELEASE.jar:/Users/alex/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1.jar:/Users/alex/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/Users/alex/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/Users/alex/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.10/jackson-datatype-jdk8-2.9.10.jar:/Users/alex/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.10/jackson-datatype-jsr310-2.9.10.jar:/Users/alex/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.10/jackson-module-parameter-names-2.9.10.jar:/Users/alex/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.1.11.RELEASE/spring-boot-starter-tomcat-2.1.11.RELEASE.jar:/Users/alex/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29.jar:/Users/alex/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.29/tomcat-embed-el-9.0.29.jar:/Users/alex/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.29/tomcat-embed-websocket-9.0.29.jar:/Users/alex/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.18.Final/hibernate-validator-6.0.18.Final.jar:/Users/alex/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar:/Users/alex/.m2/repository/org/jboss/logging/jboss-logging/3.3.3.Final/jboss-logging-3.3.3.Final.jar:/Users/alex/.m2/repository/com/fasterxml/classmate/1.4.0/classmate-1.4.0.jar:/Users/alex/.m2/repository/org/springframework/spring-web/5.1.12.RELEASE/spring-web-5.1.12.RELEASE.jar:/Users/alex/.m2/repository/org/springframework/spring-beans/5.1.12.RELEASE/spring-beans-5.1.12.RELEASE.jar:/Users/alex/.m2/repository/org/springframework/spring-webmvc/5.1.12.RELEASE/spring-webmvc-5.1.12.RELEASE.jar:/Users/alex/.m2/repository/org/springframework/spring-aop/5.1.12.RELEASE/spring-aop-5.1.12.RELEASE.jar:/Users/alex/.m2/repository/org/springframework/spring-context/5.1.12.RELEASE/spring-context-5.1.12.RELEASE.jar:/Users/alex/.m2/repository/org/springframework/spring-expression/5.1.12.RELEASE/spring-expression-5.1.12.RELEASE.jar:/Users/alex/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-starter/2.1.1/mybatis-spring-boot-starter-2.1.1.jar:/Users/alex/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.1.11.RELEASE/spring-boot-starter-jdbc-2.1.11.RELEASE.jar:/Users/alex/.m2/repository/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar:/Users/alex/.m2/repository/org/springframework/spring-jdbc/5.1.12.RELEASE/spring-jdbc-5.1.12.RELEASE.jar:/Users/alex/.m2/repository/org/springframework/spring-tx/5.1.12.RELEASE/spring-tx-5.1.12.RELEASE.jar:/Users/alex/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.1/mybatis-spring-boot-autoconfigure-2.1.1.jar:/Users/alex/.m2/repository/org/mybatis/mybatis/3.5.3/mybatis-3.5.3.jar:/Users/alex/.m2/repository/org/mybatis/mybatis-spring/2.0.3/mybatis-spring-2.0.3.jar:/Users/alex/.m2/repository/org/springframework/boot/spring-boot-devtools/2.1.11.RELEASE/spring-boot-devtools-2.1.11.RELEASE.jar:/Users/alex/.m2/repository/org/springframework/boot/spring-boot/2.1.11.RELEASE/spring-boot-2.1.11.RELEASE.jar:/Users/alex/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.11.RELEASE/spring-boot-autoconfigure-2.1.11.RELEASE.jar:/Users/alex/.m2/repository/mysql/mysql-connector-java/8.0.18/mysql-connector-java-8.0.18.jar:/Users/alex/.m2/repository/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar:/Users/alex/.m2/repository/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar:/Users/alex/.m2/repository/org/springframework/spring-core/5.1.12.RELEASE/spring-core-5.1.12.RELEASE.jar:/Users/alex/.m2/repository/org/springframework/spring-jcl/5.1.12.RELEASE/spring-jcl-5.1.12.RELEASE.jar:/Users/alex/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/alex/.m2/repository/com/alibaba/druid/1.1.12/druid-1.1.12.jar:/Users/alex/.m2/repository/org/springframework/boot/spring-boot-starter-mail/2.1.11.RELEASE/spring-boot-starter-mail-2.1.11.RELEASE.jar:/Users/alex/.m2/repository/org/springframework/spring-context-support/5.1.12.RELEASE/spring-context-support-5.1.12.RELEASE.jar:/Users/alex/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar:/Users/alex/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar com.taest.tourismdatavisualization.TourismdatavisualizationApplication
-12:40:32,391 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
-12:40:32,391 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
-12:40:32,391 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/Users/alex/workspace/%e6%97%85%e6%b8%b8%e5%a4%a7%e6%95%b0%e6%8d%ae%e5%88%86%e6%9e%90%e4%b8%8e%e6%8c%96%e6%8e%98%e7%b3%bb%e7%bb%9f-%e8%bd%af%e4%bb%b6-%e4%bb%a3%e7%a0%81-%e8%af%b4%e6%98%8e/%e6%ba%90%e7%a0%81/TourismAnalysisSystem/TourismDataVisualization/target/classes/logback.xml]
-12:40:32,543 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
-12:40:32,556 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
-12:40:32,562 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [console]
-12:40:32,570 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
-12:40:32,637 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
-12:40:32,644 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [file_info]
-12:40:32,657 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@832947102 - No compression will be used
-12:40:32,658 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@832947102 - Will use the pattern /home/tourism/logs/sys-info.%d{yyyy-MM-dd}.log for the active file
-12:40:32,668 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern '/home/tourism/logs/sys-info.%d{yyyy-MM-dd}.log'.
-12:40:32,668 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
-12:40:32,707 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Tue Sep 15 12:40:32 CST 2020
-12:40:32,709 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
-12:40:32,717 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file_info] - Active log file name: /home/tourism/logs/sys-info.log
-12:40:32,717 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file_info] - File property is set to [/home/tourism/logs/sys-info.log]
-12:40:32,972 |-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[file_info] - Failed to create parent directories for [/home/tourism/logs/sys-info.log]
-12:40:32,998 |-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[file_info] - openFile(/home/tourism/logs/sys-info.log,true) call failed. java.io.FileNotFoundException: /home/tourism/logs/sys-info.log (No such file or directory)
-	at java.io.FileNotFoundException: /home/tourism/logs/sys-info.log (No such file or directory)
-	at 	at java.io.FileOutputStream.open0(Native Method)
-	at 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
-	at 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
-	at 	at ch.qos.logback.core.recovery.ResilientFileOutputStream.<init>(ResilientFileOutputStream.java:26)
-	at 	at ch.qos.logback.core.FileAppender.openFile(FileAppender.java:204)
-	at 	at ch.qos.logback.core.FileAppender.start(FileAppender.java:127)
-	at 	at ch.qos.logback.core.rolling.RollingFileAppender.start(RollingFileAppender.java:100)
-	at 	at ch.qos.logback.core.joran.action.AppenderAction.end(AppenderAction.java:90)
-	at 	at ch.qos.logback.core.joran.spi.Interpreter.callEndAction(Interpreter.java:309)
-	at 	at ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:193)
-	at 	at ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:179)
-	at 	at ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:62)
-	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:165)
-	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:152)
-	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:110)
-	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:53)
-	at 	at ch.qos.logback.classic.util.ContextInitializer.configureByResource(ContextInitializer.java:75)
-	at 	at ch.qos.logback.classic.util.ContextInitializer.autoConfig(ContextInitializer.java:150)
-	at 	at org.slf4j.impl.StaticLoggerBinder.init(StaticLoggerBinder.java:84)
-	at 	at org.slf4j.impl.StaticLoggerBinder.<clinit>(StaticLoggerBinder.java:55)
-	at 	at org.slf4j.LoggerFactory.bind(LoggerFactory.java:150)
-	at 	at org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:124)
-	at 	at org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:412)
-	at 	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:357)
-	at 	at org.apache.commons.logging.LogAdapter$Slf4jAdapter.createLocationAwareLog(LogAdapter.java:130)
-	at 	at org.apache.commons.logging.LogAdapter.createLog(LogAdapter.java:91)
-	at 	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:67)
-	at 	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:59)
-	at 	at org.springframework.boot.SpringApplication.<clinit>(SpringApplication.java:195)
-	at 	at com.taest.tourismdatavisualization.TourismdatavisualizationApplication.main(TourismdatavisualizationApplication.java:10)
-12:40:32,998 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
-12:40:32,998 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [file_error]
-12:40:32,999 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1225439493 - No compression will be used
-12:40:32,999 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1225439493 - Will use the pattern /home/tourism/logs/sys-error.%d{yyyy-MM-dd}.log for the active file
-12:40:33,000 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern '/home/tourism/logs/sys-error.%d{yyyy-MM-dd}.log'.
-12:40:33,000 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
-12:40:33,026 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Tue Sep 15 12:40:33 CST 2020
-12:40:33,027 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
-12:40:33,029 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file_error] - Active log file name: /home/tourism/logs/sys-error.log
-12:40:33,029 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file_error] - File property is set to [/home/tourism/logs/sys-error.log]
-12:40:33,216 |-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[file_error] - Failed to create parent directories for [/home/tourism/logs/sys-error.log]
-12:40:33,249 |-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[file_error] - openFile(/home/tourism/logs/sys-error.log,true) call failed. java.io.FileNotFoundException: /home/tourism/logs/sys-error.log (No such file or directory)
-	at java.io.FileNotFoundException: /home/tourism/logs/sys-error.log (No such file or directory)
-	at 	at java.io.FileOutputStream.open0(Native Method)
-	at 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
-	at 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
-	at 	at ch.qos.logback.core.recovery.ResilientFileOutputStream.<init>(ResilientFileOutputStream.java:26)
-	at 	at ch.qos.logback.core.FileAppender.openFile(FileAppender.java:204)
-	at 	at ch.qos.logback.core.FileAppender.start(FileAppender.java:127)
-	at 	at ch.qos.logback.core.rolling.RollingFileAppender.start(RollingFileAppender.java:100)
-	at 	at ch.qos.logback.core.joran.action.AppenderAction.end(AppenderAction.java:90)
-	at 	at ch.qos.logback.core.joran.spi.Interpreter.callEndAction(Interpreter.java:309)
-	at 	at ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:193)
-	at 	at ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:179)
-	at 	at ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:62)
-	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:165)
-	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:152)
-	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:110)
-	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:53)
-	at 	at ch.qos.logback.classic.util.ContextInitializer.configureByResource(ContextInitializer.java:75)
-	at 	at ch.qos.logback.classic.util.ContextInitializer.autoConfig(ContextInitializer.java:150)
-	at 	at org.slf4j.impl.StaticLoggerBinder.init(StaticLoggerBinder.java:84)
-	at 	at org.slf4j.impl.StaticLoggerBinder.<clinit>(StaticLoggerBinder.java:55)
-	at 	at org.slf4j.LoggerFactory.bind(LoggerFactory.java:150)
-	at 	at org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:124)
-	at 	at org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:412)
-	at 	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:357)
-	at 	at org.apache.commons.logging.LogAdapter$Slf4jAdapter.createLocationAwareLog(LogAdapter.java:130)
-	at 	at org.apache.commons.logging.LogAdapter.createLog(LogAdapter.java:91)
-	at 	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:67)
-	at 	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:59)
-	at 	at org.springframework.boot.SpringApplication.<clinit>(SpringApplication.java:195)
-	at 	at com.taest.tourismdatavisualization.TourismdatavisualizationApplication.main(TourismdatavisualizationApplication.java:10)
-12:40:33,249 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
-12:40:33,249 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [sys-user]
-12:40:33,251 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1454127753 - No compression will be used
-12:40:33,251 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1454127753 - Will use the pattern /home/tourism/logs/sys-user.%d{yyyy-MM-dd}.log for the active file
-12:40:33,252 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern '/home/tourism/logs/sys-user.%d{yyyy-MM-dd}.log'.
-12:40:33,252 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
-12:40:33,284 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Tue Sep 15 12:40:33 CST 2020
-12:40:33,284 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
-12:40:33,287 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[sys-user] - Active log file name: /home/tourism/logs/sys-user.log
-12:40:33,287 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[sys-user] - File property is set to [/home/tourism/logs/sys-user.log]
-12:40:33,558 |-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[sys-user] - Failed to create parent directories for [/home/tourism/logs/sys-user.log]
-12:40:33,581 |-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[sys-user] - openFile(/home/tourism/logs/sys-user.log,true) call failed. java.io.FileNotFoundException: /home/tourism/logs/sys-user.log (No such file or directory)
-	at java.io.FileNotFoundException: /home/tourism/logs/sys-user.log (No such file or directory)
-	at 	at java.io.FileOutputStream.open0(Native Method)
-	at 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
-	at 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
-	at 	at ch.qos.logback.core.recovery.ResilientFileOutputStream.<init>(ResilientFileOutputStream.java:26)
-	at 	at ch.qos.logback.core.FileAppender.openFile(FileAppender.java:204)
-	at 	at ch.qos.logback.core.FileAppender.start(FileAppender.java:127)
-	at 	at ch.qos.logback.core.rolling.RollingFileAppender.start(RollingFileAppender.java:100)
-	at 	at ch.qos.logback.core.joran.action.AppenderAction.end(AppenderAction.java:90)
-	at 	at ch.qos.logback.core.joran.spi.Interpreter.callEndAction(Interpreter.java:309)
-	at 	at ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:193)
-	at 	at ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:179)
-	at 	at ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:62)
-	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:165)
-	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:152)
-	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:110)
-	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:53)
-	at 	at ch.qos.logback.classic.util.ContextInitializer.configureByResource(ContextInitializer.java:75)
-	at 	at ch.qos.logback.classic.util.ContextInitializer.autoConfig(ContextInitializer.java:150)
-	at 	at org.slf4j.impl.StaticLoggerBinder.init(StaticLoggerBinder.java:84)
-	at 	at org.slf4j.impl.StaticLoggerBinder.<clinit>(StaticLoggerBinder.java:55)
-	at 	at org.slf4j.LoggerFactory.bind(LoggerFactory.java:150)
-	at 	at org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:124)
-	at 	at org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:412)
-	at 	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:357)
-	at 	at org.apache.commons.logging.LogAdapter$Slf4jAdapter.createLocationAwareLog(LogAdapter.java:130)
-	at 	at org.apache.commons.logging.LogAdapter.createLog(LogAdapter.java:91)
-	at 	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:67)
-	at 	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:59)
-	at 	at org.springframework.boot.SpringApplication.<clinit>(SpringApplication.java:195)
-	at 	at com.taest.tourismdatavisualization.TourismdatavisualizationApplication.main(TourismdatavisualizationApplication.java:10)
-12:40:33,582 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.taest.tourismdatavisualization] to INFO
-12:40:33,582 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
-12:40:33,582 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [console] to Logger[ROOT]
-12:40:33,583 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
-12:40:33,583 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [file_info] to Logger[ROOT]
-12:40:33,583 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [file_error] to Logger[ROOT]
-12:40:33,583 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [sys-user] to INFO
-12:40:33,583 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [sys-user] to Logger[sys-user]
-12:40:33,583 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
-12:40:33,584 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@27c20538 - Registering current configuration as safe fallback point
+/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/bin/java -javaagent:/Users/alex/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/201.6668.121/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=53304:/Users/alex/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/201.6668.121/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/lib/tools.jar:/Users/alex/workspace/Tourist/Source Code/TourismAnalysisSystem/AnalysisMining/DataLoader/target/classes:/Users/alex/.m2/repository/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1.jar:/Users/alex/.m2/repository/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-hadoop2.jar:/Users/alex/.m2/repository/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7.jar:/Users/alex/.m2/repository/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7-tests.jar:/Users/alex/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar:/Users/alex/.m2/repository/com/twitter/chill_2.11/0.8.0/chill_2.11-0.8.0.jar:/Users/alex/.m2/repository/com/esotericsoftware/kryo-shaded/3.0.3/kryo-shaded-3.0.3.jar:/Users/alex/.m2/repository/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0.jar:/Users/alex/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/Users/alex/.m2/repository/com/twitter/chill-java/0.8.0/chill-java-0.8.0.jar:/Users/alex/.m2/repository/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar:/Users/alex/.m2/repository/org/apache/hadoop/hadoop-client/2.2.0/hadoop-client-2.2.0.jar:/Users/alex/.m2/repository/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.jar:/Users/alex/.m2/repository/org/apache/commons/commons-math/2.1/commons-math-2.1.jar:/Users/alex/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar:/Users/alex/.m2/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar:/Users/alex/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/alex/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/Users/alex/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/Users/alex/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar:/Users/alex/.m2/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar:/Users/alex/.m2/repository/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.jar:/Users/alex/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.jar:/Users/alex/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/Users/alex/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.jar:/Users/alex/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.jar:/Users/alex/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.jar:/Users/alex/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar:/Users/alex/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/alex/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/alex/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.jar:/Users/alex/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.jar:/Users/alex/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.jar:/Users/alex/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.jar:/Users/alex/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.jar:/Users/alex/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.jar:/Users/alex/.m2/repository/org/apache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0.jar:/Users/alex/.m2/repository/org/apache/spark/spark-launcher_2.11/2.1.1/spark-launcher_2.11-2.1.1.jar:/Users/alex/.m2/repository/org/apache/spark/spark-network-common_2.11/2.1.1/spark-network-common_2.11-2.1.1.jar:/Users/alex/.m2/repository/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar:/Users/alex/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.5/jackson-annotations-2.6.5.jar:/Users/alex/.m2/repository/org/apache/spark/spark-network-shuffle_2.11/2.1.1/spark-network-shuffle_2.11-2.1.1.jar:/Users/alex/.m2/repository/org/apache/spark/spark-unsafe_2.11/2.1.1/spark-unsafe_2.11-2.1.1.jar:/Users/alex/.m2/repository/net/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1.jar:/Users/alex/.m2/repository/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0.jar:/Users/alex/.m2/repository/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0.jar:/Users/alex/.m2/repository/org/apache/curator/curator-client/2.4.0/curator-client-2.4.0.jar:/Users/alex/.m2/repository/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar:/Users/alex/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar:/Users/alex/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/alex/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/alex/.m2/repository/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar:/Users/alex/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/alex/.m2/repository/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16.jar:/Users/alex/.m2/repository/com/ning/compress-lzf/1.0.3/compress-lzf-1.0.3.jar:/Users/alex/.m2/repository/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6.jar:/Users/alex/.m2/repository/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar:/Users/alex/.m2/repository/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.jar:/Users/alex/.m2/repository/commons-net/commons-net/2.2/commons-net-2.2.jar:/Users/alex/.m2/repository/org/json4s/json4s-jackson_2.11/3.2.11/json4s-jackson_2.11-3.2.11.jar:/Users/alex/.m2/repository/org/json4s/json4s-core_2.11/3.2.11/json4s-core_2.11-3.2.11.jar:/Users/alex/.m2/repository/org/json4s/json4s-ast_2.11/3.2.11/json4s-ast_2.11-3.2.11.jar:/Users/alex/.m2/repository/org/scala-lang/scalap/2.11.0/scalap-2.11.0.jar:/Users/alex/.m2/repository/org/scala-lang/scala-compiler/2.11.0/scala-compiler-2.11.0.jar:/Users/alex/.m2/repository/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1.jar:/Users/alex/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar:/Users/alex/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.jar:/Users/alex/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar:/Users/alex/.m2/repository/org/glassfish/hk2/hk2-api/2.4.0-b34/hk2-api-2.4.0-b34.jar:/Users/alex/.m2/repository/org/glassfish/hk2/hk2-utils/2.4.0-b34/hk2-utils-2.4.0-b34.jar:/Users/alex/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:/Users/alex/.m2/repository/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar:/Users/alex/.m2/repository/org/glassfish/hk2/hk2-locator/2.4.0-b34/hk2-locator-2.4.0-b34.jar:/Users/alex/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/Users/alex/.m2/repository/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2.jar:/Users/alex/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/Users/alex/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.jar:/Users/alex/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar:/Users/alex/.m2/repository/org/glassfish/jersey/core/jersey-server/2.22.2/jersey-server-2.22.2.jar:/Users/alex/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.jar:/Users/alex/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/Users/alex/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2.jar:/Users/alex/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.22.2/jersey-container-servlet-core-2.22.2.jar:/Users/alex/.m2/repository/io/netty/netty-all/4.0.42.Final/netty-all-4.0.42.Final.jar:/Users/alex/.m2/repository/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar:/Users/alex/.m2/repository/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar:/Users/alex/.m2/repository/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar:/Users/alex/.m2/repository/io/dropwizard/metrics/metrics-jvm/3.1.2/metrics-jvm-3.1.2.jar:/Users/alex/.m2/repository/io/dropwizard/metrics/metrics-json/3.1.2/metrics-json-3.1.2.jar:/Users/alex/.m2/repository/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar:/Users/alex/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5.jar:/Users/alex/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.6.5/jackson-core-2.6.5.jar:/Users/alex/.m2/repository/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.6.5/jackson-module-scala_2.11-2.6.5.jar:/Users/alex/.m2/repository/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar:/Users/alex/.m2/repository/com/fasterxml/jackson/module/jackson-module-paranamer/2.6.5/jackson-module-paranamer-2.6.5.jar:/Users/alex/.m2/repository/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar:/Users/alex/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/Users/alex/.m2/repository/net/razorvine/pyrolite/4.13/pyrolite-4.13.jar:/Users/alex/.m2/repository/net/sf/py4j/py4j/0.10.4/py4j-0.10.4.jar:/Users/alex/.m2/repository/org/apache/spark/spark-tags_2.11/2.1.1/spark-tags_2.11-2.1.1.jar:/Users/alex/.m2/repository/org/apache/commons/commons-crypto/1.0.0/commons-crypto-1.0.0.jar:/Users/alex/.m2/repository/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar:/Users/alex/.m2/repository/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1.jar:/Users/alex/.m2/repository/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1.jar:/Users/alex/.m2/repository/org/apache/spark/spark-sketch_2.11/2.1.1/spark-sketch_2.11-2.1.1.jar:/Users/alex/.m2/repository/org/apache/spark/spark-catalyst_2.11/2.1.1/spark-catalyst_2.11-2.1.1.jar:/Users/alex/.m2/repository/org/codehaus/janino/janino/3.0.0/janino-3.0.0.jar:/Users/alex/.m2/repository/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0.jar:/Users/alex/.m2/repository/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3.jar:/Users/alex/.m2/repository/org/apache/parquet/parquet-column/1.8.1/parquet-column-1.8.1.jar:/Users/alex/.m2/repository/org/apache/parquet/parquet-common/1.8.1/parquet-common-1.8.1.jar:/Users/alex/.m2/repository/org/apache/parquet/parquet-encoding/1.8.1/parquet-encoding-1.8.1.jar:/Users/alex/.m2/repository/org/apache/parquet/parquet-hadoop/1.8.1/parquet-hadoop-1.8.1.jar:/Users/alex/.m2/repository/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.jar:/Users/alex/.m2/repository/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.jar:/Users/alex/.m2/repository/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar:/Users/alex/.m2/repository/org/apache/spark/spark-hive_2.11/2.1.1/spark-hive_2.11-2.1.1.jar:/Users/alex/.m2/repository/com/twitter/parquet-hadoop-bundle/1.6.0/parquet-hadoop-bundle-1.6.0.jar:/Users/alex/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:/Users/alex/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/alex/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/alex/.m2/repository/javolution/javolution/5.5.1/javolution-5.5.1.jar:/Users/alex/.m2/repository/log4j/apache-log4j-extras/1.2.17/apache-log4j-extras-1.2.17.jar:/Users/alex/.m2/repository/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar:/Users/alex/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/Users/alex/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/alex/.m2/repository/org/antlr/ST4/4.0.4/ST4-4.0.4.jar:/Users/alex/.m2/repository/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar:/Users/alex/.m2/repository/org/tukaani/xz/1.0/xz-1.0.jar:/Users/alex/.m2/repository/com/googlecode/javaewah/JavaEWAH/0.3.2/JavaEWAH-0.3.2.jar:/Users/alex/.m2/repository/org/iq80/snappy/snappy/0.2/snappy-0.2.jar:/Users/alex/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/alex/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar:/Users/alex/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark2/hive-metastore-1.2.1.spark2.jar:/Users/alex/.m2/repository/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE.jar:/Users/alex/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/alex/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/alex/.m2/repository/org/apache/derby/derby/10.10.2.0/derby-10.10.2.0.jar:/Users/alex/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.6/datanucleus-api-jdo-3.2.6.jar:/Users/alex/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.9/datanucleus-rdbms-3.2.9.jar:/Users/alex/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/Users/alex/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/Users/alex/.m2/repository/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.jar:/Users/alex/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar:/Users/alex/.m2/repository/org/apache/avro/avro/1.7.7/avro-1.7.7.jar:/Users/alex/.m2/repository/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar:/Users/alex/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar:/Users/alex/.m2/repository/org/apache/calcite/calcite-avatica/1.2.0-incubating/calcite-avatica-1.2.0-incubating.jar:/Users/alex/.m2/repository/org/apache/calcite/calcite-core/1.2.0-incubating/calcite-core-1.2.0-incubating.jar:/Users/alex/.m2/repository/org/apache/calcite/calcite-linq4j/1.2.0-incubating/calcite-linq4j-1.2.0-incubating.jar:/Users/alex/.m2/repository/net/hydromatic/eigenbase-properties/1.1.5/eigenbase-properties-1.1.5.jar:/Users/alex/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/alex/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/alex/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar:/Users/alex/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/alex/.m2/repository/joda-time/joda-time/2.9.3/joda-time-2.9.3.jar:/Users/alex/.m2/repository/org/jodd/jodd-core/3.5.2/jodd-core-3.5.2.jar:/Users/alex/.m2/repository/org/datanucleus/datanucleus-core/3.2.10/datanucleus-core-3.2.10.jar:/Users/alex/.m2/repository/org/apache/thrift/libthrift/0.9.3/libthrift-0.9.3.jar:/Users/alex/.m2/repository/org/apache/thrift/libfb303/0.9.3/libfb303-0.9.3.jar:/Users/alex/workspace/Tourist/Source Code/TourismAnalysisSystem/AnalysisMining/commons/target/classes:/Users/alex/.m2/repository/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar:/Users/alex/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22.jar:/Users/alex/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar:/Users/alex/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22/slf4j-log4j12-1.7.22.jar:/Users/alex/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar com.taest.analysis.DataLoader 2016
+log4j:ERROR Could not find value for key log4j.appender.MM-dd HH:mm:ss
+log4j:ERROR Could not instantiate appender named "MM-dd HH:mm:ss".
+log4j:ERROR Could not find value for key log4j.appender.SSS}  %5p --- [%50t]  %-80c(line:%5L)  :  %m%n stdout
+log4j:ERROR Could not instantiate appender named "SSS}  %5p --- [%50t]  %-80c(line:%5L)  :  %m%n stdout".
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+20/09/19 12:18:49 INFO SparkContext: Running Spark version 2.1.1
+20/09/19 12:18:50 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/09/19 12:18:55 INFO SecurityManager: Changing view acls to: alex
+20/09/19 12:18:55 INFO SecurityManager: Changing modify acls to: alex
+20/09/19 12:18:55 INFO SecurityManager: Changing view acls groups to: 
+20/09/19 12:18:55 INFO SecurityManager: Changing modify acls groups to: 
+20/09/19 12:18:55 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(alex); groups with view permissions: Set(); users  with modify permissions: Set(alex); groups with modify permissions: Set()
+20/09/19 12:18:55 INFO Utils: Successfully started service 'sparkDriver' on port 53310.
+20/09/19 12:18:55 INFO SparkEnv: Registering MapOutputTracker
+20/09/19 12:18:55 INFO SparkEnv: Registering BlockManagerMaster
+20/09/19 12:18:55 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/09/19 12:18:55 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/09/19 12:18:56 INFO DiskBlockManager: Created local directory at /private/var/folders/9s/bdx8h06j0fj1qryw1xnrhxw40000gn/T/blockmgr-92ccf849-b60a-4d99-8984-c946295456e0
+20/09/19 12:18:56 INFO MemoryStore: MemoryStore started with capacity 912.3 MB
+20/09/19 12:18:56 INFO SparkEnv: Registering OutputCommitCoordinator
+20/09/19 12:18:56 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+20/09/19 12:18:56 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.1.221:4040
+20/09/19 12:18:56 INFO Executor: Starting executor ID driver on host localhost
+20/09/19 12:18:56 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 53311.
+20/09/19 12:18:56 INFO NettyBlockTransferService: Server created on 192.168.1.221:53311
+20/09/19 12:18:56 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/09/19 12:18:56 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.1.221, 53311, None)
+20/09/19 12:18:56 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.221:53311 with 912.3 MB RAM, BlockManagerId(driver, 192.168.1.221, 53311, None)
+20/09/19 12:18:56 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.1.221, 53311, None)
+20/09/19 12:18:56 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.1.221, 53311, None)
+20/09/19 12:18:57 INFO SharedState: Warehouse path is 'file:/Users/alex/workspace/Tourist/Source%20Code/TourismAnalysisSystem/spark-warehouse'.
+20/09/19 12:18:57 INFO HiveUtils: Initializing HiveMetastoreConnection version 1.2.1 using Spark classes.
+20/09/19 12:18:57 INFO deprecation: mapred.max.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.maxsize
+20/09/19 12:18:57 INFO deprecation: mapred.reduce.tasks.speculative.execution is deprecated. Instead, use mapreduce.reduce.speculative
+20/09/19 12:18:57 INFO deprecation: mapred.committer.job.setup.cleanup.needed is deprecated. Instead, use mapreduce.job.committer.setup.cleanup.needed
+20/09/19 12:18:57 INFO deprecation: mapred.min.split.size.per.rack is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.rack
+20/09/19 12:18:57 INFO deprecation: mapred.min.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize
+20/09/19 12:18:57 INFO deprecation: mapred.min.split.size.per.node is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.node
+20/09/19 12:18:57 INFO deprecation: mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+20/09/19 12:18:57 INFO deprecation: mapred.input.dir.recursive is deprecated. Instead, use mapreduce.input.fileinputformat.input.dir.recursive
+20/09/19 12:18:58 INFO HiveMetaStore: 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+20/09/19 12:19:03 INFO ObjectStore: ObjectStore, initialize called
+20/09/19 12:19:03 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+20/09/19 12:19:03 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+20/09/19 12:19:05 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+20/09/19 12:19:07 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+20/09/19 12:19:07 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+20/09/19 12:19:07 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+20/09/19 12:19:07 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+20/09/19 12:19:07 INFO Query: Reading in results for query "org.datanucleus.store.rdbms.query.SQLQuery@0" since the connection used is closing
+20/09/19 12:19:07 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+20/09/19 12:19:07 INFO ObjectStore: Initialized ObjectStore
+20/09/19 12:19:08 INFO HiveMetaStore: Added admin role in metastore
+20/09/19 12:19:08 INFO HiveMetaStore: Added public role in metastore
+20/09/19 12:19:08 INFO HiveMetaStore: No user is added in admin role, since config is empty
+20/09/19 12:19:08 INFO HiveMetaStore: 0: get_all_databases
+20/09/19 12:19:08 INFO audit: ugi=alex	ip=unknown-ip-addr	cmd=get_all_databases	
+20/09/19 12:19:08 INFO HiveMetaStore: 0: get_functions: db=default pat=*
+20/09/19 12:19:08 INFO audit: ugi=alex	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+20/09/19 12:19:08 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+Exception in thread "main" java.lang.IllegalArgumentException: Error while instantiating 'org.apache.spark.sql.hive.HiveSessionState':
+	at org.apache.spark.sql.SparkSession$.org$apache$spark$sql$SparkSession$$reflect(SparkSession.scala:981)
+	at org.apache.spark.sql.SparkSession.sessionState$lzycompute(SparkSession.scala:110)
+	at org.apache.spark.sql.SparkSession.sessionState(SparkSession.scala:109)
+	at org.apache.spark.sql.SparkSession$Builder$$anonfun$getOrCreate$5.apply(SparkSession.scala:878)
+	at org.apache.spark.sql.SparkSession$Builder$$anonfun$getOrCreate$5.apply(SparkSession.scala:878)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:99)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:99)
+	at scala.collection.mutable.HashTable$class.foreachEntry(HashTable.scala:230)
+	at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:40)
+	at scala.collection.mutable.HashMap.foreach(HashMap.scala:99)
+	at org.apache.spark.sql.SparkSession$Builder.getOrCreate(SparkSession.scala:878)
+	at com.taest.analysis.DataLoader$.main(DataLoader.scala:22)
+	at com.taest.analysis.DataLoader.main(DataLoader.scala)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.spark.sql.SparkSession$.org$apache$spark$sql$SparkSession$$reflect(SparkSession.scala:978)
+	... 12 more
+Caused by: java.lang.IllegalArgumentException: Error while instantiating 'org.apache.spark.sql.hive.HiveExternalCatalog':
+	at org.apache.spark.sql.internal.SharedState$.org$apache$spark$sql$internal$SharedState$$reflect(SharedState.scala:169)
+	at org.apache.spark.sql.internal.SharedState.<init>(SharedState.scala:86)
+	at org.apache.spark.sql.SparkSession$$anonfun$sharedState$1.apply(SparkSession.scala:101)
+	at org.apache.spark.sql.SparkSession$$anonfun$sharedState$1.apply(SparkSession.scala:101)
+	at scala.Option.getOrElse(Option.scala:120)
+	at org.apache.spark.sql.SparkSession.sharedState$lzycompute(SparkSession.scala:101)
+	at org.apache.spark.sql.SparkSession.sharedState(SparkSession.scala:100)
+	at org.apache.spark.sql.internal.SessionState.<init>(SessionState.scala:157)
+	at org.apache.spark.sql.hive.HiveSessionState.<init>(HiveSessionState.scala:32)
+	... 17 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.spark.sql.internal.SharedState$.org$apache$spark$sql$internal$SharedState$$reflect(SharedState.scala:166)
+	... 25 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.spark.sql.hive.client.IsolatedClientLoader.createClient(IsolatedClientLoader.scala:264)
+	at org.apache.spark.sql.hive.HiveUtils$.newClientForMetadata(HiveUtils.scala:358)
+	at org.apache.spark.sql.hive.HiveUtils$.newClientForMetadata(HiveUtils.scala:262)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.<init>(HiveExternalCatalog.scala:66)
+	... 30 more
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: File /tmp/hive does not exist
+	at org.apache.hadoop.hive.ql.session.SessionState.start(SessionState.java:522)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.<init>(HiveClientImpl.scala:188)
+	... 38 more
+Caused by: java.io.FileNotFoundException: File /tmp/hive does not exist
+	at org.apache.hadoop.fs.RawLocalFileSystem.getFileStatus(RawLocalFileSystem.java:520)
+	at org.apache.hadoop.fs.FilterFileSystem.getFileStatus(FilterFileSystem.java:398)
+	at org.apache.hadoop.hive.ql.session.SessionState.createRootHDFSDir(SessionState.java:599)
+	at org.apache.hadoop.hive.ql.session.SessionState.createSessionDirs(SessionState.java:554)
+	at org.apache.hadoop.hive.ql.session.SessionState.start(SessionState.java:508)
+	... 39 more
+20/09/19 12:19:08 INFO SparkContext: Invoking stop() from shutdown hook
+20/09/19 12:19:08 INFO SparkUI: Stopped Spark web UI at http://192.168.1.221:4040
+20/09/19 12:19:08 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/09/19 12:19:08 INFO MemoryStore: MemoryStore cleared
+20/09/19 12:19:08 INFO BlockManager: BlockManager stopped
+20/09/19 12:19:08 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/09/19 12:19:08 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/09/19 12:19:08 INFO SparkContext: Successfully stopped SparkContext
+20/09/19 12:19:08 INFO ShutdownHookManager: Shutdown hook called
+20/09/19 12:19:08 INFO ShutdownHookManager: Deleting directory /private/var/folders/9s/bdx8h06j0fj1qryw1xnrhxw40000gn/T/spark-7cbe3af5-1a7e-4073-8cce-bf4436a2f55e
 
-12:40:45.162 [restartedMain] ERROR o.s.b.SpringApplication - [reportFailure,823] - Application run failed
-java.lang.IllegalStateException: Logback configuration error detected: 
-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[file_info] - Failed to create parent directories for [/home/tourism/logs/sys-info.log]
-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[file_info] - openFile(/home/tourism/logs/sys-info.log,true) call failed. java.io.FileNotFoundException: /home/tourism/logs/sys-info.log (No such file or directory)
-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[file_error] - Failed to create parent directories for [/home/tourism/logs/sys-error.log]
-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[file_error] - openFile(/home/tourism/logs/sys-error.log,true) call failed. java.io.FileNotFoundException: /home/tourism/logs/sys-error.log (No such file or directory)
-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[sys-user] - Failed to create parent directories for [/home/tourism/logs/sys-user.log]
-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[sys-user] - openFile(/home/tourism/logs/sys-user.log,true) call failed. java.io.FileNotFoundException: /home/tourism/logs/sys-user.log (No such file or directory)
-	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:167)
-	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:220)
-	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
-	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
-	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
-	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:289)
-	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:264)
-	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:226)
-	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:203)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
-	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
-	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
-	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:342)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
-	at com.taest.tourismdatavisualization.TourismdatavisualizationApplication.main(TourismdatavisualizationApplication.java:10)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Exception in thread "restartedMain" java.lang.reflect.InvocationTargetException
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[file_info] - Failed to create parent directories for [/home/tourism/logs/sys-info.log]
-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[file_info] - openFile(/home/tourism/logs/sys-info.log,true) call failed. java.io.FileNotFoundException: /home/tourism/logs/sys-info.log (No such file or directory)
-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[file_error] - Failed to create parent directories for [/home/tourism/logs/sys-error.log]
-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[file_error] - openFile(/home/tourism/logs/sys-error.log,true) call failed. java.io.FileNotFoundException: /home/tourism/logs/sys-error.log (No such file or directory)
-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[sys-user] - Failed to create parent directories for [/home/tourism/logs/sys-user.log]
-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[sys-user] - openFile(/home/tourism/logs/sys-user.log,true) call failed. java.io.FileNotFoundException: /home/tourism/logs/sys-user.log (No such file or directory)
-	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:167)
-	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:220)
-	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
-	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
-	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
-	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:289)
-	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:264)
-	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:226)
-	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:203)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
-	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
-	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
-	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:342)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
-	at com.taest.tourismdatavisualization.TourismdatavisualizationApplication.main(TourismdatavisualizationApplication.java:10)
-	... 5 more
-
-Process finished with exit code 0
+Process finished with exit code 1
